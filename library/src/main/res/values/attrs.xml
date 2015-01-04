@@ -4,4 +4,16 @@
         <attr name="border_width" format="dimension" />
         <attr name="border_color" format="color" />
     </declare-styleable>
+
+    <!-- TextView style color -->
+    <declare-styleable name="NiceTextView">
+        <attr name="ak_height" format="dimension" />
+        <attr name="ak_color" format="color" />
+        <attr name="ak_padding" format="dimension" />
+        <attr name="ak_mode">
+            <enum name="underline" value="0" />
+            <enum name="line_through" value="1" />
+            <enum name="top" value="2" />
+        </attr>
+    </declare-styleable>
 </resources>
